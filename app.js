@@ -23,6 +23,7 @@ var port = process.env.port || 3000;
 // mongoose.connect("mongodb://localhost/yelp_camp_v12",  { useNewUrlParser: true });
 // mongoose.connect("mongodb://yelpcamp_user:password3@ds251827.mlab.com:51827/yelpcamp_zor");
 
+console.log(process.env.DATABASEURL);
 mongoose.connect(process.env.DATABASEURL);
 
 app.use(bodyParser.urlencoded({extended: true}));
