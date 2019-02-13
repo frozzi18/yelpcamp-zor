@@ -16,7 +16,7 @@ var commentRoutes		= require("./routes/comments"),
 	campgroundRoutes	= require("./routes/campgrounds"),
 	indexRoutes			= require("./routes/index")
 	
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 // console.log(process.env.DATABASEURL);
 // The database made it automatically
