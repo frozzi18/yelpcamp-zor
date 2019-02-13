@@ -21,7 +21,7 @@ var commentRoutes		= require("./routes/comments"),
 
 // The database made it automatically
 // mongoose.connect("mongodb://localhost/yelp_camp_v12",  { useNewUrlParser: true });
-mongoose.connect("mongodb://yelpcamp_user:password3@ds251827.mlab.com:51827/yelpcamp_zor",  { useNewUrlParser: true });
+mongoose.connect("mongodb://yelpcamp_user:password3@ds251827.mlab.com:51827/yelpcamp_zor");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
