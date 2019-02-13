@@ -1,4 +1,3 @@
-# Adding in Flash!
-* Demo working version
-* Install and configure connect-flash
-* Add bootstrap alerts to header
+YelpCamp from Web Developer Bootcamp
+check it here:
+https://yelpcamp-project-zor.herokuapp.com/
